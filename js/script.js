@@ -1,4 +1,4 @@
-const searchData = [
+﻿const searchData = [
   {
     title: "Canada Immigration",
     page: "canada.html",
@@ -57,7 +57,7 @@ const searchData = [
   },
   {
     title: "Other Countries",
-    page: "countries.html",
+    page: "other-countries.html",
     description: "Australia, New Zealand, UK, USA and Europe study, work and migration pathways.",
     category: "Main service",
     tags: ["#GlobalVisa", "#StudyAbroad", "#Migration"],
@@ -65,7 +65,7 @@ const searchData = [
   },
   {
     title: "Scholarship Guidance",
-    page: "countries.html",
+    page: "other-countries.html",
     description: "Scholarship direction up to 70% for selected study pathways.",
     category: "Promotion",
     tags: ["#Scholarship", "#StudyAbroad", "#StudentVisa"],
@@ -73,7 +73,7 @@ const searchData = [
   },
   {
     title: "Australia Visa Pathways",
-    page: "countries.html",
+    page: "other-countries.html",
     description: "Study, work, visit and migration guidance for Australia.",
     category: "Country service",
     tags: ["#Australia", "#AustraliaVisa", "#StudyAustralia"],
@@ -81,7 +81,7 @@ const searchData = [
   },
   {
     title: "New Zealand Visa Pathways",
-    page: "countries.html",
+    page: "other-countries.html",
     description: "Study, work and skilled migration support for New Zealand.",
     category: "Country service",
     tags: ["#NewZealand", "#NZVisa", "#SkilledMigration"],
@@ -89,7 +89,7 @@ const searchData = [
   },
   {
     title: "UK Student and Visit Visa",
-    page: "countries.html",
+    page: "other-countries.html",
     description: "UK study, visit and documentation support for students and families.",
     category: "Country service",
     tags: ["#UKVisa", "#StudyUK", "#VisitUK"],
@@ -97,7 +97,7 @@ const searchData = [
   },
   {
     title: "USA Visa Guidance",
-    page: "countries.html",
+    page: "other-countries.html",
     description: "USA student, visitor and documentation guidance.",
     category: "Country service",
     tags: ["#USAVisa", "#StudyUSA", "#VisitUSA"],
@@ -105,7 +105,7 @@ const searchData = [
   },
   {
     title: "Europe Visa Guidance",
-    page: "countries.html",
+    page: "other-countries.html",
     description: "Selected European study, visit and migration pathway support.",
     category: "Country service",
     tags: ["#EuropeVisa", "#StudyEurope", "#Schengen"],
@@ -113,7 +113,7 @@ const searchData = [
   },
   {
     title: "Legal Services",
-    page: "legal.html",
+    page: "legal-services.html",
     description: "Appeals, refusal support, refugee law, citizenship, residency and legal documentation review.",
     category: "Main service",
     tags: ["#LegalService", "#VisaAppeal", "#RefusalSupport"],
@@ -121,7 +121,7 @@ const searchData = [
   },
   {
     title: "Visa Refusal Appeal",
-    page: "legal.html",
+    page: "legal-services.html",
     description: "Document review and guidance for visa refusals and immigration appeals.",
     category: "Legal service",
     tags: ["#LegalAppeal", "#VisaRefusal", "#Appeal"],
@@ -129,7 +129,7 @@ const searchData = [
   },
   {
     title: "Refugee and Immigration Law",
-    page: "legal.html",
+    page: "legal-services.html",
     description: "Guidance for refugee law, immigration concerns and supporting documents.",
     category: "Legal service",
     tags: ["#RefugeeLaw", "#ImmigrationLaw", "#LegalHelp"],
@@ -137,7 +137,7 @@ const searchData = [
   },
   {
     title: "Consultation Booking",
-    page: "booking.html",
+    page: "consultation.html",
     description: "Book online or physical consultation with Gen-Ardent advisors.",
     category: "Booking",
     tags: ["#Consultation", "#Booking", "#Appointment"],
@@ -145,7 +145,7 @@ const searchData = [
   },
   {
     title: "Success Stories",
-    page: "success.html",
+    page: "about.html#success-stories",
     description: "Client reviews, visa approvals, scholarship journeys and appeal success stories.",
     category: "Trust",
     tags: ["#SuccessStories", "#Reviews", "#Testimonials"],
@@ -162,10 +162,10 @@ const searchData = [
   {
     title: "Careers",
     page: "career.html",
-    description: "Apply for immigration consultancy, documentation, marketing and client support roles.",
+    description: "Apply for internships, immigration consultant assistant, marketing, documentation and customer support roles.",
     category: "Career",
     tags: ["#Careers", "#Jobs", "#Internship"],
-    keywords: ["career", "jobs", "trainee", "front desk", "marketing", "client support"]
+    keywords: ["career", "jobs", "internship", "immigration consultant assistant", "marketing", "customer support", "client support"]
   },
   {
     title: "Contact",
@@ -184,19 +184,19 @@ const chatbotReplies = [
   },
   {
     keys: ["student visa", "study"],
-    reply: "Student visa guidance and scholarship pathways are available for Canada and other study destinations. Start with canada.html or countries.html."
+    reply: "Student visa guidance and scholarship pathways are available for Canada and other study destinations. Start with canada.html or other-countries.html."
   },
   {
     keys: ["scholarship", "scholarships"],
     reply: "Scholarship guidance includes options up to 70% for selected student pathways. Visit the Other Countries page or book a consultation."
   },
   {
-    keys: ["legal appeal", "appeal", "refusal"],
-    reply: "Visa refusal and immigration appeal support is listed on the Legal Services page: legal.html"
+    keys: ["legal service", "legal services", "legal appeal", "appeal", "refusal"],
+    reply: "Visa refusal and immigration appeal support is listed on the Legal Services page: legal-services.html"
   },
   {
-    keys: ["book consultation", "booking", "appointment"],
-    reply: "You can submit an online or physical consultation request on the Booking page: booking.html"
+    keys: ["consultation", "book consultation", "booking", "appointment"],
+    reply: "You can submit an online or physical consultation request on the Consultation Booking page: consultation.html"
   },
   {
     keys: ["contact", "office", "phone", "email"],
@@ -249,10 +249,10 @@ function setupLoader() {
   if (!loader) return;
 
   window.addEventListener("load", () => {
-    setTimeout(() => loader.classList.add("hidden"), 350);
+    setTimeout(() => loader.classList.add("hidden"), 1400);
   });
 
-  setTimeout(() => loader.classList.add("hidden"), 1200);
+  setTimeout(() => loader.classList.add("hidden"), 2400);
 }
 
 function applySavedTheme() {
@@ -503,6 +503,9 @@ function appendChatMessage(container, text, type) {
 
 function findChatbotReply(text) {
   const normalized = text.toLowerCase();
+  if (/^(hi|hello|hey)\b/.test(normalized.trim())) {
+    return "Hello. I can help with Canada visas, scholarships, legal services, consultations, contact details and office locations.";
+  }
   const found = chatbotReplies.find((item) => item.keys.some((key) => normalized.includes(key)));
   return found ? found.reply : "I can help with Canada visas, student visas, scholarships, legal appeals, nurse migration, family sponsorship, bookings and contact details.";
 }
@@ -672,12 +675,12 @@ function renderReview(container, review, prepend = false) {
   const card = document.createElement("article");
   card.className = "card testimonial-card reveal visible";
   const initial = review.name ? review.name.charAt(0).toUpperCase() : "G";
-  card.innerHTML = `
+    card.innerHTML = `
     <div class="client-row">
       <div class="avatar">${initial}</div>
       <div>
         <strong>${escapeHtml(review.name)}</strong>
-        <div class="stars">${"★".repeat(Number(review.rating))}${"☆".repeat(5 - Number(review.rating))}</div>
+        <div class="stars">${"&#9733;".repeat(Number(review.rating))}${"&#9734;".repeat(5 - Number(review.rating))}</div>
       </div>
     </div>
     <p>${escapeHtml(review.review)}</p>
@@ -759,3 +762,4 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
+
