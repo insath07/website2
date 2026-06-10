@@ -1,0 +1,29 @@
+Gen-Ardent Immigration Web Application Sitemap
+
+Home
+ |-- Canada Immigration
+ |    |-- Express Entry
+ |    |-- Student Visa
+ |    |-- Work Permit
+ |    |-- Family Sponsorship
+ |    |-- Visitor Visa
+ |
+ |-- Other Countries
+ |    |-- Australia
+ |    |-- New Zealand
+ |    |-- United Kingdom
+ |    |-- United States
+ |    |-- Europe
+ |
+ |-- Legal Services
+ |    |-- Visa Refusal Appeals
+ |    |-- Immigration Appeals
+ |    |-- Refugee Law
+ |    |-- Citizenship Services
+ |    |-- Residency Services
+ |
+ |-- Consultation Booking
+ |-- Success Stories / Reviews
+ |-- About Us
+ |-- Career
+ |-- Contact

@@ -1,0 +1,28 @@
+Wireframe Plan
+
+Home Page:
+Navbar, search bar, dark/light toggle, hero banner, promotional advertisements, service cards, why choose us section, testimonials, newsletter, footer, chatbot, scroll-to-top button.
+
+Canada Immigration Page:
+Hero section, Canada service cards, promotion banner, FAQ accordion, inquiry form, CV upload, recommendation widget.
+
+Other Countries Page:
+Hero section, country cards, scholarship promotion, FAQ accordion, inquiry form, recommendation widget.
+
+Legal Services Page:
+Hero section, legal service cards, trust badges, FAQ accordion, legal inquiry form.
+
+Consultation Booking Page:
+Booking form, CV upload, office availability cards, confirmation message.
+
+Success Stories Page:
+Success cards, testimonial cards, review submission form, dynamic review display.
+
+About Us Page:
+Company profile, mission, vision, values, office locations, team section, credentials.
+
+Career Page:
+Career introduction, job cards, application form, CV upload.
+
+Contact Page:
+Contact details, office cards, map section, contact form, social media links, external resources.

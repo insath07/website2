@@ -1,0 +1,28 @@
+Storyboard Flow
+
+Frame 1: Service Discovery
+User opens the home page and views visa promotions, service cards, and search bar.
+System displays professional immigration services and promotional advertisements.
+
+Frame 2: Service Search
+User searches for "Canada student visa".
+System displays matching results and directs the user to Canada Immigration page.
+
+Frame 3: Service Selection
+User selects a Canada service card.
+System displays service details, FAQ, and inquiry option.
+
+Frame 4: FAQ Viewing
+User opens FAQ accordion.
+System expands the answer smoothly.
+
+Frame 5: Inquiry or Booking
+User fills inquiry form or consultation booking form and uploads CV.
+System validates input fields.
+
+Frame 6: Form Submission
+User submits the form.
+System stores demo data in localStorage and shows a success message.
+
+Frame 7: Confirmation
+System confirms that the consultation or inquiry request has been submitted successfully.

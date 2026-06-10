@@ -1,0 +1,45 @@
+Style Guide / Design Tokens
+
+Brand Identity:
+Professional, trustworthy, global, modern, immigration-focused, Canada-priority.
+
+Color Palette:
+Primary: #0A4DA3
+Secondary: #09213F
+Accent: #D4AF37
+Light Background: #F7FAFC
+Light Surface: #FFFFFF
+Dark Background: #07111F
+Dark Surface: #0E1B2E
+Text Light Mode: #1A202C
+Text Dark Mode: #F8FAFC
+Muted Text: #64748B
+Border: #E2E8F0
+Success: #16A34A
+Danger: #DC2626
+
+Typography:
+Font: Poppins or Inter
+H1: 48px desktop / 34px mobile
+H2: 36px desktop / 28px mobile
+H3: 24px
+Body: 16px
+Small text: 14px
+Button text: 15px semi-bold
+
+Buttons:
+Primary: Blue background with white text
+Secondary: Transparent with border
+Accent: Gold background
+Hover: Slight transform and darker color
+Disabled: Gray background and disabled cursor
+
+Iconography:
+Use Font Awesome or Bootstrap Icons.
+
+Spacing:
+Container max width: 1200px
+Section padding: 80px desktop / 50px mobile
+Card gap: 24px
+Border radius: 20px
+Input padding: 14px

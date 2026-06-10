@@ -1,0 +1,321 @@
+Gen-Ardent Immigration Web Application Documentation
+
+1. Introduction
+
+The Gen-Ardent Immigration Web Application is a complete client-side website created for Gen-Ardent Immigration Inc Sri Lanka. The purpose of the project is to present immigration consultancy services in a professional, trustworthy and responsive format while focusing on Canada as the priority destination. The website also promotes visa services for Australia, New Zealand, the United Kingdom, the United States and Europe.
+
+The web application helps clients discover visa pathways, submit inquiries, book consultations, upload CV files for evaluation, subscribe to newsletters, read testimonials, submit reviews and contact office locations. The project is designed for a university web application development assessment and uses only HTML, CSS and JavaScript.
+
+2. System Overview
+
+The system is a static client-side web application. It does not require a backend server or database. All interaction is handled in the browser using JavaScript and localStorage.
+
+Main pages:
+- Home page: promotions, service categories, testimonials, newsletter, chatbot and global navigation.
+- Canada Immigration page: Canada services, FAQ, inquiry form, CV upload and recommendation widget.
+- Other Countries page: country services, scholarship promotion, FAQ, inquiry form and recommendation widget.
+- Legal Services page: legal service cards, trust badges, FAQ and legal inquiry form.
+- Consultation Booking page: booking form, CV upload, localStorage booking save and office availability cards.
+- Success Stories / Reviews page: success cards, testimonials, review form and saved reviews.
+- About Us page: company profile, mission, vision, values, offices, team and credentials.
+- Career page: job openings and career application form with CV upload.
+- Contact page: contact details, office cards, map placeholders, contact form, social media and trusted external resources.
+
+Major features:
+- Responsive navigation
+- Search dropdown
+- Dark/light mode with localStorage
+- Floating chatbot
+- FAQ accordion
+- Form validation
+- CV upload filename display
+- Newsletter storage
+- Booking storage
+- Review storage and dynamic rendering
+- Scroll-to-top button
+- Loading indicator
+- Service recommendation widgets
+- Active navigation link
+- Responsive design and animations
+
+3. Requirement Identification Table
+
+| Page Name | Requirement List | Description | Implemented Yes/No |
+|---|---|---|---|
+| Home | Navbar, search, dark/light toggle, hero, CTA buttons, promotions, service cards, why choose section, testimonials, success story, newsletter, chatbot, scroll-to-top, footer | Home page introduces Gen-Ardent and routes users to key service areas | Yes |
+| Canada Immigration | Hero, Canada description, seven service cards, promotional banner, FAQ, inquiry form, CV upload, recommendation feature | Canada is treated as the priority immigration destination | Yes |
+| Other Countries | Hero, five country service cards, scholarship promotion, FAQ, inquiry form, CV upload, recommendation widget | Covers Australia, New Zealand, UK, USA and Europe pathways | Yes |
+| Legal Services | Hero, legal service cards, trust badges, FAQ, legal inquiry form, required legal note | Presents refusal appeals, immigration appeals, refugee support and documentation review | Yes |
+| Consultation Booking | Booking form, required validation, country/service/date/time/mode fields, CV upload, localStorage save, confirmation, office availability cards | Allows users to submit demo consultation bookings | Yes |
+| Success Stories / Reviews | Hero, success story cards, testimonials, review form, dynamic review display, localStorage save | Demonstrates client trust and stores submitted reviews | Yes |
+| About Us | Company introduction, mission, vision, values, office locations, team roles, credentials, review/success preview | Builds trust with company and team details | Yes |
+| Career | Career hero, five job openings, application form, CV upload, validation and success confirmation | Allows applicants to submit demo career applications | Yes |
+| Contact | Contact hero, contact details, office cards, map section, contact form, social links, trusted external resources | Provides office and inquiry information | Yes |
+
+4. Sitemap Description
+
+The sitemap starts with the Home page and connects to eight main pages: Canada Immigration, Other Countries, Legal Services, Consultation Booking, Success Stories / Reviews, About Us, Career and Contact. The Canada page contains service areas such as Express Entry, Student Visa, Work Permit, Family Sponsorship and Visitor Visa. The Other Countries page contains Australia, New Zealand, United Kingdom, United States and Europe pathways. The Legal Services page contains Visa Refusal Appeals, Immigration Appeals, Refugee Law, Citizenship Services and Residency Services.
+
+5. Wireframes Description
+
+Home Page:
+The wireframe begins with a sticky navbar containing the logo, links, search bar, theme toggle and mobile menu. The hero area uses a large background image with text and two CTA buttons. Promotional cards and service cards follow. The page then includes a why choose section, testimonials, success story highlight, newsletter, footer, chatbot and scroll-to-top button.
+
+Canada Immigration Page:
+The layout includes a hero, service cards, promotional banner, FAQ accordion, recommendation widget and inquiry form with CV upload.
+
+Other Countries Page:
+The layout includes a hero, country service cards, scholarship section, FAQ accordion, recommendation widget and inquiry form with CV upload.
+
+Legal Services Page:
+The layout includes a hero, legal service cards, trust badges, FAQ accordion and legal inquiry form.
+
+Consultation Booking Page:
+The layout uses a large booking form beside office availability cards. The form includes required client information, preferred consultation date/time, mode and CV upload.
+
+Success Stories Page:
+The layout includes success cards, testimonial cards, a review submission form and a dynamic review display area.
+
+About Us Page:
+The layout includes company introduction, mission, vision, values, office locations, team roles, credentials and links to reviews and booking.
+
+Career Page:
+The layout includes a career hero, job cards and an application form with CV upload.
+
+Contact Page:
+The layout includes contact hero, office cards, map placeholders, contact form, social media links and trusted external resources.
+
+6. Figma Prototype Link Placeholder
+
+Figma Prototype Link: [Insert Figma prototype link here]
+
+7. Storyboard
+
+Service Discovery -> Service Selection -> Inquiry/Booking -> Form Submission -> Confirmation
+
+Service Discovery:
+The user opens the home page and sees visa promotions, Canada focus, service cards and search.
+
+Service Selection:
+The user searches for a service or clicks a service card such as Canada Immigration or Legal Services.
+
+Inquiry/Booking:
+The user reviews details, opens FAQ sections and fills an inquiry or booking form.
+
+Form Submission:
+JavaScript validates the required fields and email format, prevents page reload and saves demo data where required.
+
+Confirmation:
+The system displays a success message confirming that the inquiry, booking, review, newsletter subscription or application was submitted.
+
+8. Style Guide
+
+Color palette:
+- Primary: #0A4DA3
+- Secondary: #09213F
+- Accent: #D4AF37
+- Canada accent: #C81E1E
+- Light background: #F7FAFC
+- Light surface: #FFFFFF
+- Dark background: #07111F
+- Dark surface: #0E1B2E
+- Text light mode: #1A202C
+- Text dark mode: #F8FAFC
+- Muted text: #64748B
+- Border: #E2E8F0
+- Success: #16A34A
+- Danger: #DC2626
+
+Typography:
+The website uses Poppins from Google Fonts. H1 text is approximately 48px on desktop and 34px on mobile. H2 text is approximately 36px on desktop and 28px on mobile. H3 text is 24px. Body text is 16px.
+
+Buttons:
+Primary buttons use blue background and white text. Secondary buttons use transparent styling with a border. Accent buttons use gold background. Hover states include small movement and color changes.
+
+Icons:
+The project uses Font Awesome icons through CDN for navigation, cards, buttons, badges, forms and chatbot.
+
+Layout and spacing:
+The maximum content width is 1200px. Desktop sections use 80px vertical padding and mobile sections use 50px. Cards use soft shadows, consistent gaps and rounded corners. Forms use 14px padding on inputs.
+
+Light mode and dark mode:
+CSS custom properties define the design tokens. JavaScript toggles a dark-mode class on the body and saves the user preference in localStorage.
+
+9. Implementation Explanation
+
+HTML:
+HTML is used to structure all pages semantically with header, nav, main, section, article, form and footer elements. Each page has a consistent navbar, search area, footer, chatbot and scroll-to-top button.
+
+CSS:
+CSS is used for the design system, responsive layout, theme colors, grid systems, hero images, cards, buttons, forms, FAQ accordion styling, chatbot and animations. CSS variables define reusable brand colors and layout tokens.
+
+JavaScript:
+JavaScript handles interactivity including loading indicator, mobile menu, dark/light mode, search, FAQ accordion, chatbot replies, form validation, newsletter storage, booking storage, review storage, CV filename display, recommendation widgets and scroll-to-top behavior.
+
+localStorage:
+localStorage is used to store:
+- Theme preference
+- Newsletter subscriptions
+- Demo booking data
+- Canada inquiries
+- country inquiries
+- legal inquiries
+- contact messages
+- career applications
+- submitted reviews
+
+10. Code Snippets Explanation
+
+HTML structure:
+
+<header class="site-header">
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="canada.html">Canada</a>
+  </nav>
+</header>
+
+This structure creates a reusable header and navigation area for every page.
+
+CSS design tokens:
+
+:root {
+  --primary: #0A4DA3;
+  --secondary: #09213F;
+  --accent: #D4AF37;
+  --background: #F7FAFC;
+  --surface: #FFFFFF;
+}
+
+These variables keep the design consistent and make theme changes easier.
+
+JavaScript dark mode:
+
+document.body.classList.toggle("dark-mode", isDark);
+localStorage.setItem("genArdentTheme", isDark ? "dark" : "light");
+
+This code toggles the dark-mode class and saves the selected mode in localStorage.
+
+JavaScript search:
+
+const matches = searchData.filter((item) => {
+  const searchable = [item.title, item.description, ...item.keywords].join(" ").toLowerCase();
+  return searchable.includes(query);
+});
+
+This code searches service data by title, description and keywords.
+
+JavaScript chatbot:
+
+const found = chatbotReplies.find((item) =>
+  item.keys.some((key) => normalized.includes(key))
+);
+
+This code matches a user message with predefined chatbot keywords.
+
+JavaScript form validation:
+
+form.querySelectorAll("[required]").forEach((field) => {
+  if (!field.value.trim()) {
+    setFieldError(field, "This field is required.");
+  }
+});
+
+This code checks required fields and displays field-level error messages.
+
+11. Chatbot Explanation
+
+The chatbot is a floating client-side widget on all pages. When the user opens it and types a question, JavaScript checks the message against predefined keyword groups. The chatbot handles:
+- Canada visa
+- student visa
+- scholarship
+- legal appeal
+- book consultation
+- contact
+- nurse migration
+- family sponsorship
+
+If a keyword is matched, the bot replies with a useful suggestion and points the user to the relevant page. If there is no match, it gives a general help message listing supported topics.
+
+12. Search Bar Explanation
+
+The search bar uses a JavaScript array called searchData. Each item contains a title, page URL, description and keywords. When the user types, JavaScript filters the array and displays matching results in a dropdown. Clicking a result navigates to the relevant page.
+
+Supported keywords include Canada, student visa, work visa, scholarship, legal, appeal, refugee, booking, consultation, contact, career, family sponsorship, nurse migration, PR and visit visa.
+
+13. Logo Design Explanation
+
+The logo uses professional immigration branding with a global, trust-focused and Canada-priority theme. The circular globe icon communicates international movement, while the Gen-Ardent name and Sri Lanka label communicate the company identity and local presence.
+
+14. Promotional Advertisement Design Explanation
+
+The website uses promotional cards for Canada PR Pathway, Student Visa with Scholarship up to 70%, Nurse Migration Program, Quick Visit Visa Support and Family Sponsorship Program. These cards are designed as campaign-style advertisements that guide users toward high-interest immigration services.
+
+15. Feature Checklist
+
+- Responsive design: Implemented
+- Search bar: Implemented
+- Chatbot: Implemented
+- Dark mode: Implemented
+- Light mode: Implemented
+- FAQ accordion: Implemented
+- Inquiry form: Implemented
+- CV upload: Implemented
+- Booking form: Implemented
+- Newsletter: Implemented
+- Testimonials: Implemented
+- Success stories: Implemented
+- Maps: Implemented with professional placeholders
+- Social media links: Implemented
+- External trusted links: Implemented
+- Scroll-to-top button: Implemented
+- Loading indicator: Implemented
+- Animations: Implemented
+- Recommendation feature: Implemented
+
+16. Testing and Results
+
+The website was checked for desktop, tablet and mobile screen sizes using responsive CSS grid, flexbox and media queries. Navigation links point to the correct pages. The shared JavaScript supports form validation, search dropdown, chatbot, FAQ accordion, localStorage features, theme toggle, scroll-to-top and recommendation widgets.
+
+Expected results:
+- Pages load without backend requirements.
+- Navbar links work across all pages.
+- Forms prevent page reload and show success or error messages.
+- CV upload displays selected file name.
+- Review submissions appear dynamically and persist after reload.
+- Newsletter emails are saved to localStorage.
+- Dark/light preference persists after reload.
+- Search results navigate to relevant pages.
+
+17. Challenges and Solutions
+
+Challenge: Making UI responsive
+Solution: CSS grid, flexbox and media queries were used to adapt cards, forms, navigation and page sections for desktop, tablet and mobile views.
+
+Challenge: No backend
+Solution: localStorage and client-side validation were used for demo data such as bookings, reviews, inquiries and newsletter subscriptions.
+
+Challenge: Improving user interaction
+Solution: The project includes chatbot replies, FAQ accordion behavior, search dropdowns, animations, hover effects, recommendation widgets and scroll-to-top behavior.
+
+18. Conclusion
+
+The Gen-Ardent Immigration Web Application successfully meets the client-side web application requirements. It provides a complete professional immigration consultancy website using HTML, CSS and JavaScript only. The project includes all required pages, global interactive features, responsive design, localStorage functionality, documentation, sitemap, wireframe notes, storyboard and style guide.
+
+19. References
+
+Department of Immigration and Emigration Sri Lanka (2026) Official website. Available at: https://www.immigration.gov.lk/ (Accessed: 3 June 2026).
+
+Ministry of Foreign Affairs Sri Lanka (2026) Official website. Available at: https://www.mfa.gov.lk/ (Accessed: 3 June 2026).
+
+Sri Lanka Tourism Development Authority (2026) Official website. Available at: https://www.sltda.gov.lk/ (Accessed: 3 June 2026).
+
+Government of Canada (2026) Immigration and citizenship. Available at: https://www.canada.ca/en/services/immigration-citizenship.html (Accessed: 3 June 2026).
+
+MDN Web Docs (2026) HTML, CSS, JavaScript and localStorage documentation. Available at: https://developer.mozilla.org/ (Accessed: 3 June 2026).
+
+W3C (2026) Web standards documentation. Available at: https://www.w3.org/ (Accessed: 3 June 2026).
+
+Font Awesome (2026) Icon toolkit. Available at: https://fontawesome.com/ (Accessed: 3 June 2026).
+
+Google Fonts (2026) Poppins font family. Available at: https://fonts.google.com/ (Accessed: 3 June 2026).
